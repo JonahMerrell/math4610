@@ -1,4 +1,4 @@
-# math5610 Table of Contents
+# math4610 Table of Contents
 
 ## [Software Manual](software_manual/softwaremanual)
 
