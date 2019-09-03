@@ -1,6 +1,6 @@
 # Software Manual (abs_error.py)
 
-## [Back](../softwaremanual)
+## [Back](softwaremanual)
 
 **Routine Name:**           abs_error.py
 

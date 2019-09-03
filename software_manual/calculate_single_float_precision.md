@@ -1,6 +1,6 @@
 # Software Manual (smaceps.py)
 
-## [Back](../softwaremanual)
+## [Back](softwaremanual)
 
 **Routine Name:**           calculate_single_float_precision.py
 

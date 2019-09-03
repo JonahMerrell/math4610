@@ -1,6 +1,6 @@
 # Software Manual (dmaceps.py)
 
-## [Back](../softwaremanual)
+## [Back](softwaremanual)
 
 **Routine Name:**           calculate_double_float_precision.py
 

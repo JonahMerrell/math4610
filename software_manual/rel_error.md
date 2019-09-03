@@ -1,6 +1,6 @@
 # Software Manual (rel_error.py)
 
-## [Back](../softwaremanual)
+## [Back](softwaremanual)
 
 **Routine Name:**           rel_error.py
 
