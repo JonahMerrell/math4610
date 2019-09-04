@@ -94,3 +94,14 @@ For this task, we were asked to write a main program that computes the derivativ
   - [compute_exp_pi.py](Task9/compute_exp_pi.py)
 - Software Manual entry:
   - [compute_exp_pi](../software_manual/compute_exp_pi.md)
+
+### Task 10
+For this task, we were asked to search the internet for sites that discuss absolute and relative errors, and then ti write a brief paragraph (3 or 4 sentences) that describe our findings.
+
+Absolute error is the amount of physical error that a measurement has, while relative error is adjusted to indicate how good a measurement is relative to the size of the thing being measured. This is why relative error is often more useful when comparing the accuracy of measurements, because the size of each measurement is taken into account. The absolute error for 2 measurements might be the same, but the relative error could be different, indicating that the accuracy of the measurements are different.
+
+http://www2.phy.ilstu.edu/~wenning/slh/Absolute%20Relative%20Error.pdf
+https://www.thoughtco.com/absolute-and-relative-error-calculation-609602
+
+
+
