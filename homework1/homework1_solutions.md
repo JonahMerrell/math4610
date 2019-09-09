@@ -100,8 +100,8 @@ For this task, we were asked to search the internet for sites that discuss absol
 
 Absolute error is the amount of physical error that a measurement has, while relative error is adjusted to indicate how good a measurement is relative to the size of the thing being measured. This is why relative error is often more useful when comparing the accuracy of measurements, because the size of each measurement is taken into account. The absolute error for 2 measurements might be the same, but the relative error could be different, indicating that the accuracy of the measurements are different.
 
-http://www2.phy.ilstu.edu/~wenning/slh/Absolute%20Relative%20Error.pdf
-https://www.thoughtco.com/absolute-and-relative-error-calculation-609602
+[http://www2.phy.ilstu.edu/~wenning/slh/Absolute%20Relative%20Error.pdf](http://www2.phy.ilstu.edu/~wenning/slh/Absolute%20Relative%20Error.pdf)
+[https://www.thoughtco.com/absolute-and-relative-error-calculation-609602](https://www.thoughtco.com/absolute-and-relative-error-calculation-609602)
 
 
 

@@ -1,9 +1,0 @@
-Hello Joe
-
-the link to my github pages website is: https://jonahmerrell.github.io/math4610/
-
-I will be using the windows command line.
-
-I have a question about task 4. For this task, we need to write code that, when executed, will inform you what code language we are using. I am using python, which is not a compiled language, so I went ahead and wrote a routine that simply just prints "python" when run. Is that fine?
-
-I also have a question about task 5. We are supposed to provide a link to our table of contents. Is it fine if the main page for my website (the link above) IS the table of contents? (That is how I did it in math5610).
