@@ -44,10 +44,8 @@ For this task, we were asked to approximate a derivative using the central diffe
 how the error reduces as h decreases until machine precision causes problems. 
 
 - Code:
-  - [printCodeLanguage.py](Task6/test_computation_error.py)
-- Software Manual entry:
-  - [printCodeLanguage](../software_manual/test_computation_error.md)
-  
+  - [test_computation_error.py](Task6/test_computation_error.py)
+
   Using test_computation_error, I learn that as h gets smaller, the approximation for the derivative improves in precision until 
   a certain point. After this point, the approximation for the derivative starts to become worse, since the values involved in 
   the computation with h exceed machine precision. Here are a few examples to demonstrate:
@@ -92,8 +90,6 @@ For this task, we were asked to write a main program that computes the derivativ
 
 - Code:
   - [compute_exp_pi.py](Task9/compute_exp_pi.py)
-- Software Manual entry:
-  - [compute_exp_pi](../software_manual/compute_exp_pi.md)
 
 ### Task 10
 For this task, we were asked to search the internet for sites that discuss absolute and relative errors, and then ti write a brief paragraph (3 or 4 sentences) that describe our findings.
