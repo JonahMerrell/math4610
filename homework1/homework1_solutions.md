@@ -12,6 +12,7 @@
 - [x] [Task 8](#task-8)
 - [x] [Task 9](#task-9)
 - [x] [Task 10](#task-10)
+
 ### Task 1
 For this task, we were asked to email our link to our Github page.
 

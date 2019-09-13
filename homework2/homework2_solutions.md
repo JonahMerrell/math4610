@@ -14,22 +14,22 @@
 - [x] [Task 10](#task-10)
 
 ### Task 1
-For this task, we were asked to set up a root finding problem for the equation: x cosh(x) + x^3 = pi
+For this task, we were asked to set up a root finding problem for the equation: x cosh(x) + x<sup>3</sub> = pi
 
 __Solution__:
 
-Given x cosh(x) + x^3 = pi
-	  x cosh(x) + x^3 - pi = 0
-		Let f(x) = xcosh(x) + x^3 - pi
+Given x cosh(x) + x<sup>3</sub> = pi
+	  x cosh(x) + x<sup>3</sub> - pi = 0
+		Let f(x) = xcosh(x) + x<sup>3</sub> - pi
 		
 		Thus, the root finding problem is to find x such that f(x) = 0
 
 ### Task 2
-For this task, we were asked to set up at least two associated fixed point iteration for the equation: x cosh(x) + x^3 = pi
+For this task, we were asked to set up at least two associated fixed point iteration for the equation: x cosh(x) + x<sup>3</sub> = pi
 
 __Fixed-point Iteration__
 x = x + f(x)
-x<sub>1<sub> = x<sub>0<sub> + f(x), given an intital guess x<sub>0<sub>
-Let g(x<sub>k<sub>) = x<sub>k<sub> + f(x<sub>k<sub>)
-x<sub>k + 1<sub> = g(x<sub>k<sub>)
+x<sub>1</sub> = x<sub>0</sub> + f(x), given an intital guess x<sub>0</sub>
+Let g(x<sub>k</sub>) = x<sub>k</sub> + f(x<sub>k</sub>)
+x<sub>k + 1</sub> = g(x<sub>k</sub>)
 
