@@ -10,8 +10,8 @@
 
 **Description/Purpose:** This routine will implement the fixed point iteration.
 
-**Input:** argument1: The function f(x) (which we assume is equal to 0 when x is the root) for the fixed point iteration.
-		   argument2: The initial guess x_0 to start of teh iteration
+**Input:** argument1: The function f(x) (which we assume is equal to 0 when x is the root) for the fixed point iteration.<br>
+		   argument2: The initial guess x_0 to start of teh iteration<br>
            argument3: The tolerance used to determine when to stop iterating. (A number like 0.00001)<br>
 		   argument4: The maximum iterations allowed while iterating.<br>
 		   
@@ -22,7 +22,8 @@
 Below shows an example of solving the equation math.cos(x) - x = 0 using the routine "root_solve_fixed_point".
  Then the solution is printed vector is printed. 
 
-      def function(x):
+      import math
+	  def function(x):
           return math.cos(x) - x
       print(root_solve_fixed_point(function, 0.9, 0.0001, 50))
 
