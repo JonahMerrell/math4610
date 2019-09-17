@@ -1,6 +1,6 @@
 # Software Manual (root_solve_fixed_point.py)
 
-## [Back](../softwaremanual)
+## [Back](softwaremanual.md)
 
 **Routine Name:**           root_solve_fixed_point.py
 
