@@ -80,10 +80,10 @@ For this task, we were asked to search the internet for sites that discuss funct
 
 Functional iterations are able to find a root of an equation by setting up a function that, when iterated, will converge to the solution (root) of the equation. To generate this root-finding function (normaly called g(x)), we simply need to modify an equation f(x) = 0 into the form g(x)= x. Functional iterations will only converge if abs(g'(x)) < 1.
 
-[https://bookdown.org/rdpeng/advstatcomp/functional-iteration.html](https://bookdown.org/rdpeng/advstatcomp/functional-iteration.html)
-[http://home.iitk.ac.in/~psraj/mth101/lecture_notes/lecture8.pdf](http://home.iitk.ac.in/~psraj/mth101/lecture_notes/lecture8.pdf)
-[https://mat.iitm.ac.in/home/sryedida/public_html/caimna/transcendental/iteration%20methods/fixed-point/iteration.html](https://mat.iitm.ac.in/home/sryedida/public_html/caimna/transcendental/iteration%20methods/fixed-point/iteration.html)
-[https://www3.nd.edu/~zxu2/acms40390F12/Lec-2.2.pdf](https://www3.nd.edu/~zxu2/acms40390F12/Lec-2.2.pdf)
+[https://bookdown.org/rdpeng/advstatcomp/functional-iteration.html](https://bookdown.org/rdpeng/advstatcomp/functional-iteration.html) <br>
+[http://home.iitk.ac.in/~psraj/mth101/lecture_notes/lecture8.pdf](http://home.iitk.ac.in/~psraj/mth101/lecture_notes/lecture8.pdf) <br>
+[https://mat.iitm.ac.in/home/sryedida/public_html/caimna/transcendental/iteration%20methods/fixed-point/iteration.html](https://mat.iitm.ac.in/home/sryedida/public_html/caimna/transcendental/iteration%20methods/fixed-point/iteration.html) <br>
+[https://www3.nd.edu/~zxu2/acms40390F12/Lec-2.2.pdf](https://www3.nd.edu/~zxu2/acms40390F12/Lec-2.2.pdf) <br>
 
 
 
