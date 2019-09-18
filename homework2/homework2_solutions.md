@@ -74,6 +74,7 @@ For this task, we were asked to start our software manual for our bisection root
 For this task, we were asked to compare the results of the functional iteration and Bisection iteration on the problem x cosh(x) + x<sup>3</sup> = pi <br>
 
 I created a program that performs root_solve_bisection and root_solve_fixed_point on the same equation: x cosh(x) + x<sup>3</sup> = pi <br>
+
       Attempting to solve equation with root_solve_fixed_point:
       An OverflowError occured
       
