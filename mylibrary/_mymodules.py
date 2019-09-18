@@ -4,3 +4,5 @@ from rel_error import rel_error
 from calculate_single_float_precision import calculate_single_float_precision
 from calculate_double_float_precision import calculate_double_float_precision
 
+from root_solve_bisection import root_solve_bisection
+from root_solve_fixed_point import root_solve_fixed_point

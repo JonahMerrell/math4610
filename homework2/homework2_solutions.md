@@ -73,7 +73,17 @@ For this task, we were asked to start our software manual for our bisection root
 ### Task 9
 For this task, we were asked to compare the results of the functional iteration and Bisection iteration on the problem x cosh(x) + x<sup>3</sup> = pi <br>
 
-To be continued...
+I created a program that performs root_solve_bisection and root_solve_fixed_point on the same equation: x cosh(x) + x<sup>3</sup> = pi <br>
+      Attempting to solve equation with root_solve_fixed_point:
+      An OverflowError occured
+      
+      Attempting to solve equation with root_solve_bisection:
+      1.096343994140625
+
+The root_solve_fixed_point iteration produced an overflow error and was unable to find the root of the equation. However, the bisection iteration was able to quickly find the root, and is as accurate as the method call specified. After further investigation with the root_solve_fixed_point method, I was able to prevent an OverflowError from occuring (by multiplying the equation by 1/1000), but the method still did not converge to the actual root. 
+
+- Code:
+  - [compare_functional_iteration_with_bisection.py](Task9/compare_functional_iteration_with_bisection.py)
 
 ### Task 10
 For this task, we were asked to search the internet for sites that discuss functional iteration for root finding.
