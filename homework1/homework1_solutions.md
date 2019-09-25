@@ -91,6 +91,10 @@ For this task, we were asked to write a main program that computes the derivativ
 
 - Code:
   - [compute_exp_pi.py](Task9/compute_exp_pi.py)
+  
+After computing the derivative of e^x using the central difference method, the error of the computation was: <br>
+Relative error: 5.7864205138058934e-12 <br>
+Absolute error:  1.3390177855399088e-10 <br>
 
 ### Task 10
 For this task, we were asked to search the internet for sites that discuss absolute and relative errors, and then ti write a brief paragraph (3 or 4 sentences) that describe our findings.
