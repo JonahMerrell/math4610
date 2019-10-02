@@ -20,7 +20,7 @@
 **Usage/Example:**
 
 Below shows an example of solving the equation math.cos(x) - x = 0 using the routine "root_solve_bisection".
- Then the solution is printed vector is printed. 
+ Then the solution is printed. 
 
       import math
 	  def function(x):

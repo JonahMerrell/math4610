@@ -16,7 +16,7 @@ import math
 #    return (math.pi-pow(x,3))/math.cosh(x) - x
 #    return x - (pow(x,3) - math.pi) / math.cosh(x)
 
-def root_solve_fixed_point(function, x_0, tol, maxiter):
+def root_solve_fixed_point(function, x_0, tol, maxiter,getIterCount=False):
     error = 10* tol
     x = x_0
     iter = 0
@@ -25,7 +25,11 @@ def root_solve_fixed_point(function, x_0, tol, maxiter):
         error = abs(x - x_0)
         x_0 = x
         iter +=1
-    return x
+
+    if getIterCount==False:
+        return x
+    else:
+        return (x,maxiter)
 
 
 

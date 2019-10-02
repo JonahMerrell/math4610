@@ -6,3 +6,8 @@ from calculate_double_float_precision import calculate_double_float_precision
 
 from root_solve_bisection import root_solve_bisection
 from root_solve_fixed_point import root_solve_fixed_point
+from root_solve_newton import  root_solve_newton
+from root_solve_secant import root_solve_secant
+from root_solve_newton_hybrid import root_solve_newton_hybrid
+from root_solve_secant_hybrid import root_solve_secant_hybrid
+
