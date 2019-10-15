@@ -21,7 +21,8 @@ __Solution__:
 Given x cosh(x) + x<sup>3</sup> = pi <br>
 	  x cosh(x) + x<sup>3</sup> - pi = 0 <br>
 		Let f(x) = xcosh(x) + x<sup>3</sup> - pi<br>
-		
+		Another possible root-finding problem could be: <br>
+		Let f(x) = (pi - x<sup>3</sup>) / cosh(x) - x
 Thus, the root finding problem is to find x such that f(x) = 0
 
 ### Task 2
@@ -33,6 +34,11 @@ x = x + f(x) <br>
 x<sub>1</sub> = x<sub>0</sub> + f(x), given an intital guess x<sub>0</sub> <br>
 Let g(x<sub>k</sub>) = x<sub>k</sub> + f(x<sub>k</sub>) <br>
 x<sub>k + 1</sub> = g(x<sub>k</sub>) <br>
+
+Thus, two fixed point iterations could be:
+x<sub>k + 1</sub> = x + xcosh(x) + x<sup>3</sup> - pi<br>
+x<sub>k + 1</sub> = (pi - x<sup>3</sup>) / cosh(x)
+
 
 ### Task 3
 For this task, we were asked to implement the fixed point iteration.
