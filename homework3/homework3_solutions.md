@@ -1,4 +1,4 @@
-# Homework2<br>
+# Homework3<br>
 
 ## [Back](../)
 
@@ -7,7 +7,11 @@
 - [x] [Task 3](#task-3)
 - [x] [Task 4](#task-4)
 - [x] [Task 5](#task-5)
-
+- [x] [Task 6](#task-6)
+- [x] [Task 7](#task-7)
+- [x] [Task 8](#task-8)
+- [x] [Task 9](#task-9)
+- [x] [Task 10](#task-10)
 
 ### Task 1
 For this task, we were asked to implement the newton iteration.
@@ -90,7 +94,7 @@ For this task, we were asked to repeat task 7 for the Secant method
 ### Task 10
 For this task, we were asked to search the internet for sites that identify real problems where some root finding problem is used to compute approximate solutions.
 
-Root-finding numerical methods such as newtons method are used for solving systems of differential equations. This consequetnly means that root finding methods are used in many applications where systems of differential equaitons are used. Examples include modeling heat transfer in a material, modeling predator verses prey population relationships in an ecosystem, or modeling fluid flow.
+Root-finding numerical methods such as newtons method are used for solving systems of differential equations. This consequently means that root finding methods are used in many applications where systems of differential equaitons are used. Examples include modeling heat transfer in a material, modeling predator verses prey population relationships in an ecosystem, or modeling fluid flow.
 
 [http://www.personal.psu.edu/sxt104/class/Math251/Notes-Predator-Prey.pdf](http://www.personal.psu.edu/sxt104/class/Math251/Notes-Predator-Prey.pdf)
 [http://adsabs.harvard.edu/abs/1994IJNMF..19...41L](http://adsabs.harvard.edu/abs/1994IJNMF..19...41L)
