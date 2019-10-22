@@ -56,5 +56,43 @@ For this task, we were asked to implement a hybrid method that uses the bisectio
   - [root_solve_secant_hybrid.py](Task5/root_solve_secant_hybrid.py)
 - Software Manual entry:
   - [root_solve_secant_hybrid](../software_manual/root_solve_secant_hybrid.md)
- 
 
+### Task 6
+For this task, we were asked to add the routines created thus far to your shared library.
+
+The routines were added to my shared library.
+
+### Task 7
+For this task, we were asked to develop code that will break an interval of a function into subintervals and apply the Bisection method to each subinterval.
+
+- Code:
+  - [root_solve_bisection_intervals.py](Task7/root_solve_bisection_intervals.py)
+- Software Manual entry:
+  - [root_solve_bisection_intervals](../software_manual/root_solve_bisection_intervals.md)
+
+### Task 8
+For this task, we were asked to repeat task 7 for Newton's method
+
+- Code:
+  - [root_solve_newton_intervals.py](Task8/root_solve_newton_intervals.py)
+- Software Manual entry:
+  - [root_solve_newton_intervals](../software_manual/root_solve_newton_intervals.md)
+
+### Task 9
+For this task, we were asked to repeat task 7 for the Secant method
+
+- Code:
+  - [root_solve_secant_intervals.py](Task9/root_solve_secant_intervals.py)
+- Software Manual entry:
+  - [root_solve_secant_intervals](../software_manual/root_solve_secant_intervals.md)
+
+
+### Task 10
+For this task, we were asked to search the internet for sites that identify real problems where some root finding problem is used to compute approximate solutions.
+
+Root-finding numerical methods such as newtons method are used for solving systems of differential equations. This consequetnly means that root finding methods are used in many applications where systems of differential equaitons are used. Examples include modeling heat transfer in a material, modeling predator verses prey population relationships in an ecosystem, or modeling fluid flow.
+
+[http://www.personal.psu.edu/sxt104/class/Math251/Notes-Predator-Prey.pdf](http://www.personal.psu.edu/sxt104/class/Math251/Notes-Predator-Prey.pdf)
+[http://adsabs.harvard.edu/abs/1994IJNMF..19...41L](http://adsabs.harvard.edu/abs/1994IJNMF..19...41L)
+[https://www.tandfonline.com/doi/abs/10.1080/10407790802182687?journalCode=unhb20](https://www.tandfonline.com/doi/abs/10.1080/10407790802182687?journalCode=unhb20)
+ 

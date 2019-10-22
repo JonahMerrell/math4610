@@ -17,7 +17,8 @@ import math
 
 def root_solve_secant_hybrid(function, a, b, tol,maxiter):
     c = root_solve_bisection(function, a, b, tol, 4)
-
+    if c == None:
+        return None
     #Find another point close to c, appropriate to the scale of a and b
     if abs(c-a) < abs(c-b) :#If c is closer to a
         d = c + ((b-a)/10.0)

@@ -24,7 +24,7 @@ def root_solve_bisection(function, a, b, tol,maxiter=-1,getIterCount=False):
         maxiter = min(math.ceil(-math.log2(tol/(b-a)) + 1),maxiter)
     val = function(a)*function(b)
     if (val >= 0):
-        return "a and b are not valid for this iteration technique"
+        return None
     c = 0
     for i in range(maxiter):
         c = 0.5 * (a + b)

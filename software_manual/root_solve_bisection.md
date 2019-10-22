@@ -8,7 +8,7 @@
 
 **Language:** Python 3.7.0
 
-**Description/Purpose:** This routine will implement the fixed point iteration.
+**Description/Purpose:** This routine will implement the bisection method.
 
 **Input:** argument1: The function f(x) (which we assume is equal to 0 when x is the root) for the bisection iteration.<br>
 		   argument2: The left bound for the iteration<br>

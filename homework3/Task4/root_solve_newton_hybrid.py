@@ -17,6 +17,8 @@ import math
 
 def root_solve_newton_hybrid(function, function_prime, a, b, tol,maxiter):
     c = root_solve_bisection(function, a, b, tol, 4)
+    if c == None:
+        return None
     solution = root_solve_newton(function, function_prime, c, tol, maxiter)
     return solution
 
