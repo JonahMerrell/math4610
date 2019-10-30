@@ -49,8 +49,6 @@ In the example above, The numbers in the list above are all of the found roots f
           while i < b:
               solution = root_solve_secant_hybrid(f, i, i+step_size, tol,maxiter)
               if (solution != None):
-                  solution = round(solution,math.floor(abs(math.log(tol))))
-                  if (solution not in solutions):
-                      solutions.append(solution)
+                  solutions.append(solution)
               i += step_size
           return solutions

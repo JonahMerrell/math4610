@@ -21,9 +21,9 @@ def root_solve_newton_intervals(f,f_prime, a, b, divisions, tol, maxiter):
     while i < b:
         solution = root_solve_newton_hybrid(f,f_prime, i, i+step_size, tol,maxiter)
         if (solution != None):
-            solution = round(solution,math.floor(abs(math.log(tol))))
-            if (solution not in solutions):
-                solutions.append(solution)
+            #solution = round(solution,math.floor(abs(math.log(tol))))
+            #if (solution not in solutions):
+            solutions.append(solution)
         i += step_size
     return solutions
 

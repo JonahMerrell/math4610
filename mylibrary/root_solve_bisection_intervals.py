@@ -15,6 +15,7 @@ from _mymodules import root_solve_bisection
 import math
 
 def root_solve_bisection_intervals(function, a, b, divisions, tol):
+    start_time = time.time()#
     solutions = []
     step_size = (b-a)/divisions
     i=a
@@ -26,9 +27,9 @@ def root_solve_bisection_intervals(function, a, b, divisions, tol):
     return solutions
 
 #The code below is used just for testing.
-def function(x):
-    return math.sin(math.pi* (x ** 2) + 3.7)
-print(root_solve_bisection_intervals(function, 1.1, 68.3, 10000,0.00001))
+#def function(x):
+#    return math.sin(math.pi* (x ** 2) + 3.7)
+#print(root_solve_bisection_intervals(function, 1.1, 68.3, 10000,0.000001))
 
 
 
