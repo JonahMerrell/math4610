@@ -19,7 +19,7 @@ For this task, we were asked to determine if there might be an advantage to usin
 In order to compare bisection method, newton's method, and the bisection method, I ran each of their multiple-root finding versions on the same equation and with the the same tolerance. I then compared the execution time of each of them. The results are shown below:
 
 |   Root-finding Algorithm           |    Execution Time    |
-|   root_solve_bisection_interval    |  0.1910111904144287  |
+|   root_solve_bisection_intervals   |  0.1910111904144287  |
 |   root_solve_newton_intervals      |  0.1160066127777099  |
 |   root_solve_secant_intervals      |  0.128007173538208   |
 
