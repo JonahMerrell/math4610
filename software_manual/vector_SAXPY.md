@@ -8,9 +8,8 @@
 
 **Language:** Python 3.7.0
 
-**Description/Purpose:** This routine will add to vectors together. More precisly speaking, this
- routine will add the corresponding componenets of 2 vectors together to obtain a third vector, which
- we consider to be the "sum" of the 2 original vectors.
+**Description/Purpose:** This routine will multiply the first given vector by a scalar, and then add it to a second vector. More precisly speaking, this
+ routine will compute scalar*vector1 + vector2.
 
 **Input:** argument1: The scalar to be multiplied with the first vector<br>
            argument2: The first vector to be added<br>
