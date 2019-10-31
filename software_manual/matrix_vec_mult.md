@@ -1,6 +1,6 @@
 # Software Manual (matrix_vec_mult.py)
 
-## [Back](../softwaremanual)
+## [Back](softwaremanual.md)
 
 **Routine Name:**           matrix_vec_mult.py
 

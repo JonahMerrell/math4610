@@ -1,6 +1,6 @@
 # Software Manual (vector_dot.py)
 
-## [Back](../softwaremanual)
+## [Back](softwaremanual.md)
 
 **Routine Name:**           vector_dot.py
 

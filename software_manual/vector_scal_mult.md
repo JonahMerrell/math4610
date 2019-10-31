@@ -1,6 +1,6 @@
 # Software Manual (vector_scal_mult.py)
 
-## [Back](../softwaremanual)
+## [Back](softwaremanual.md)
 
 **Routine Name:**           vector_scal_mult.py
 

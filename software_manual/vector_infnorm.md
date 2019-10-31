@@ -1,6 +1,6 @@
 # Software Manual (vector_infnorm.py)
 
-## [Back](../softwaremanual)
+## [Back](softwaremanual.md)
 
 **Routine Name:**           vector_infnorm.py
 

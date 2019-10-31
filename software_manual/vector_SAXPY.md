@@ -1,6 +1,6 @@
 # Software Manual (vector_SAXPY.py)
 
-## [Back](../softwaremanual)
+## [Back](softwaremanual.md)
 
 **Routine Name:**           vector_SAXPY.py
 

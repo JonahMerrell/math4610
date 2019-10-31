@@ -96,7 +96,7 @@ I was not succesful in being able to download a C compiler onto my computer, and
 
 For this task, we were asked to use OpenMP to try to speed up the matrix-vector multiplication (from task 7) using more than one processor.
 
-I made an attempt to speed up the matrix-vector multiplication using multiple processors, but even though I used multiple processors, the execuation time ended up a lot slower.
+I made an attempt to speed up the matrix-vector multiplication using multiple processors, but even though I used multiple processors, the execution time ended up a lot slower.
 
 - Code:
   - [matrix_vec_mult_normal.py](Task9/matrix_vec_mult_normal.py)

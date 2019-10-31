@@ -1,6 +1,6 @@
 # Software Manual (vector_sub.py)
 
-## [Back](../softwaremanual)
+## [Back](softwaremanual.md)
 
 **Routine Name:**           vector_sub.py
 

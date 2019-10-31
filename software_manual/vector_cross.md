@@ -1,6 +1,6 @@
 # Software Manual (vector_cross.py)
 
-## [Back](../softwaremanual)
+## [Back](softwaremanual.md)
 
 **Routine Name:**           vector_cross.py
 
