@@ -22,7 +22,7 @@ Below shows an example of a 2x3 matrix being multiplied by a 3x1 vector using th
 
       matrix1 = [[2,1,4],[0,1,1]]
       vector2 = [[6],[1],[-2]]
-      print(matrix_mult(matrix1,vector2))
+      print(matrix_vec_mult(matrix1,vector2))
 
 Output from the lines above:
 
@@ -33,7 +33,7 @@ The above vector printed is the result of the computation Ax, where A is the giv
 **Implementation/Code:** The following is the code for matrix_vec_mult()
 
 
-      def matrix_mult(matrix1,vector2):
+      def matrix_vec_mult(matrix1,vector2):
           iter_count = len(matrix1[0]) # = len(vector2)
           height = len(matrix1)
           final_matrix = [[0] for j in range(height)]

@@ -12,7 +12,6 @@ import sys, os
 sys.path.append(os.path.abspath('../../mylibrary'))
 from _mymodules import vector_add,vector_scal_mult
 
-
 def vector_SAXPY(scalar,vector1,vector2):
     return vector_add(vector_scal_mult(scalar,vector1),vector2)
 

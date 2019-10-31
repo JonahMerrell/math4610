@@ -17,8 +17,8 @@ def vector_SAXPY(scalar,vector1,vector2):
     return vector_add(vector_scal_mult(scalar,vector1),vector2)
 
 #The code below is used just for testing.
-#vector1 = [5,7,9,2,5]
-#vector2 = [8,2,3,6,9]
-#scalar = 6.0
-#print(vector_SAXPY(scalar,vector1,vector2))
+vector1 = [5,7,9,2,5]
+vector2 = [8,2,3,6,9]
+scalar = 6.0
+print(vector_SAXPY(scalar,vector1,vector2))
 

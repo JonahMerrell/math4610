@@ -9,7 +9,7 @@ course:             Math 4610
 purpose:            Implement a method that returns the product of a matrices with a vector.
 '''
 
-def matrix_mult(matrix1,vector2):
+def matrix_vec_mult(matrix1,vector2):
     iter_count = len(matrix1[0]) # = len(vector2)
     height = len(matrix1)
     final_matrix = [[0] for j in range(height)]
@@ -27,4 +27,4 @@ def matrix_mult(matrix1,vector2):
 #The code below is used just for testing.
 #vector1 = [[2,1,4],[0,1,1]]
 #vector2 = [[6],[1],[-2]]
-#print(matrix_mult(vector1,vector2))
+#print(matrix_vec_mult(vector1,vector2))

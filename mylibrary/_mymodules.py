@@ -1,8 +1,6 @@
 from abs_error import abs_error
 from rel_error import rel_error
-from abs_error_1norm import abs_error_1norm
-from abs_error_2norm import abs_error_2norm
-from abs_error_infnorm import abs_error_infnorm
+
 
 
 from calculate_single_float_precision import calculate_single_float_precision
@@ -26,3 +24,7 @@ from vector_cross import vector_cross
 from vector_dot import vector_dot
 
 from matrix_vec_mult import matrix_vec_mult
+
+from abs_error_1norm import abs_error_1norm
+from abs_error_2norm import abs_error_2norm
+from abs_error_infnorm import abs_error_infnorm
