@@ -9,8 +9,8 @@
 - [x] [Task 5](#task-5)
 - [x] [Task 6](#task-6)
 - [x] [Task 7](#task-7)
-- [] [Task 8](#task-8)
-- [] [Task 9](#task-9)
+- [o] [Task 8](#task-8)
+- [o] [Task 9](#task-9)
 - [x] [Task 10](#task-10)
 
 ### Task 1

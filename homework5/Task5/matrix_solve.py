@@ -2,9 +2,9 @@
 coding language:    Python 3.7.0
 
 written by:         Jonah Merrell
-date written:       February 20 2019
-written for:        Homework4 Task7
-course:             Math 5610
+date written:       November 5 2019
+written for:        Homework5 Task5
+course:             Math 4610
 
 purpose:            This method will perform elementary row operations on a matrix to take the matrix to row echelon form
 '''

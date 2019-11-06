@@ -2,9 +2,9 @@
 coding language:    Python 3.7.0
 
 written by:         Jonah Merrell
-date written:       March 12 2019
-written for:        Homework5 Task3
-course:             Math 5610
+date written:       November 5 2019
+written for:        Homework5 Task7
+course:             Math 4610
 
 purpose:            This method will solve a system of linear equations by performing LU factorization, followed with forward substitution and back substitution.
 '''

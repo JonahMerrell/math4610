@@ -2,9 +2,9 @@
 coding language:    Python 3.7.0
 
 written by:         Jonah Merrell
-date written:       February 26 2019
-written for:        Homework5 Task2
-course:             Math 5610
+date written:       November 5 2019
+written for:        Homework5 Task6
+course:             Math 4610
 
 purpose:            This method will return the LU-factorization of a square matrix.
 '''

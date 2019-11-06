@@ -1,6 +1,6 @@
 # Software Manual (matrix_LU_factor.py)
 
-## [Back](../softwaremanual)
+## [Back](softwaremanual.md)
 
 **Routine Name:**           matrix_LU_factor.py
 

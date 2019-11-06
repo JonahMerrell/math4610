@@ -2,9 +2,9 @@
 coding language:    Python 3.7.0
 
 written by:         Jonah Merrell
-date written:       February 8 2019
-written for:        Homework4 Task4
-course:             Math 5610
+date written:       November 5 2019
+written for:        Homework5 Task1
+course:             Math 4610
 
 purpose:            This method will compute the solution of a square linear system of equations where the coefficient matrix is a diagonal matrix.
 '''
