@@ -33,4 +33,10 @@
 - [vector_SAXPY](vector_SAXPY)
 
 - [matrix_vec_mult](matrix_vec_mult)
-
+- [matrix_solve_diagonal](matrix_solve_diagonal)
+- [matrix_solve_upper_tri](matrix_solve_upper_tri)
+- [matrix_solve_lower_tri](matrix_solve_lower_tri)
+- [matrix_ref](matrix_ref)
+- [matrix_solve](matrix_solve)
+- [matrix_LU_factor](matrix_LU_factor)
+- [matrix_solve_LU](matrix_solve_LU)
