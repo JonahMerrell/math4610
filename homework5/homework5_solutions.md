@@ -9,8 +9,8 @@
 - [x] [Task 5](#task-5)
 - [x] [Task 6](#task-6)
 - [x] [Task 7](#task-7)
-- [x] [Task 8](#task-8)
-- [ ] [Task 9](#task-9)
+- [ ] [Task 8](#task-8)
+- [x] [Task 9](#task-9)
 - [x] [Task 10](#task-10)
 
 ### Task 1
@@ -78,9 +78,10 @@ Not complete.
 For this task, we were asked to embed scaled partial pivoting in a new version of the LU-factorization linear solution method, using more than one processor. Do this without interchanging rows - use an index vector to improve efficiency.
 - Code:
   - [matrix_solve_LU_scaled_partial_pivoting.py](Task9/matrix_solve_LU_scaled_partial_pivoting.py)
+  - [matrix_LU_factor_scaled_partial_pivoting.py](Task9/matrix_LU_factor_scaled_partial_pivoting.py)
 - Software Manual entry:
   - [matrix_solve_LU_scaled_partial_pivoting](../software_manual/matrix_solve_LU_scaled_partial_pivoting.md)
-
+  
 ### Task 10
   
 For this task, we were asked search the internet for sites that document pivoting strategies in numerical solution of linear equations. <br>
