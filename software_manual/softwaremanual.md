@@ -40,3 +40,4 @@
 - [matrix_solve](matrix_solve)
 - [matrix_LU_factor](matrix_LU_factor)
 - [matrix_solve_LU](matrix_solve_LU)
+- [matrix_solve_LU_scaled_partial_pivoting](matrix_solve_LU_scaled_partial_pivoting)

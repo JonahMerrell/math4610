@@ -24,6 +24,17 @@ from vector_cross import vector_cross
 from vector_dot import vector_dot
 
 from matrix_vec_mult import matrix_vec_mult
+from matrix_solve_diagonal import matrix_solve_diagonal
+from matrix_solve_upper_tri import matrix_solve_upper_tri
+from matrix_solve_lower_tri import matrix_solve_lower_tri
+from matrix_ref import matrix_ref
+from matrix_solve import matrix_solve
+from matrix_LU_factor import matrix_LU_factor
+from matrix_solve_LU import matrix_solve_LU
+from matrix_LU_factor_scaled_partial_pivoting import matrix_LU_factor_scaled_partial_pivoting
+from matrix_solve_LU_scaled_partial_pivoting import matrix_solve_LU_scaled_partial_pivoting
+
+
 
 from abs_error_1norm import abs_error_1norm
 from abs_error_2norm import abs_error_2norm
