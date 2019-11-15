@@ -41,3 +41,15 @@
 - [matrix_LU_factor](matrix_LU_factor)
 - [matrix_solve_LU](matrix_solve_LU)
 - [matrix_solve_LU_scaled_partial_pivoting](matrix_solve_LU_scaled_partial_pivoting)
+- [matrix_cholesky_fac](matrix_cholesky_fac)
+- [matrix_solve_jacobian](matrix_solve_jacobian)
+- [matrix_solve_gauss_seidel](matrix_solve_gauss_seidel)
+
+- [gen_rand_matrix](gen_rand_matrix)
+- [gen_diagdom_matrix](gen_diagdom_matrix)
+- [gen_sym_matrix](gen_sym_matrix)
+- [gen_diagdom_sym_matrix](gen_diagdom_sym_matrix)
+
+
+
+
