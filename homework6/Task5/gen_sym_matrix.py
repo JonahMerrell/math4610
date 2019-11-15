@@ -2,9 +2,9 @@
 coding language:    Python 3.7.0
 
 written by:         Jonah Merrell
-date written:       January 12 2019
-written for:        Homework1 Task9
-course:             Math 5610
+date written:       November 14 2019
+written for:        Homework6 Task5
+course:             Math 4610
 
 purpose:            Create a n*n symmetric  matrix (the size is inputted from the user) with random entries from 0 to 1.
 '''

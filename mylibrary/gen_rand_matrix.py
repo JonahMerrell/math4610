@@ -11,10 +11,10 @@ purpose:            Create a n*m matrix (the size is inputted from the user) wit
 
 import random
 
-def gen_rand_matrix(width=5,height=5):
-    A = [[0 for i in range(width)] for j in range(height)]
+def gen_rand_matrix(width=5):
+    A = [[0 for i in range(width)] for j in range(width)]
     for i in range(0,width):
-        for j in range(0, height):
+        for j in range(0, width):
             A[j][i] = random.random()
     return A
 

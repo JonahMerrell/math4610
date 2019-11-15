@@ -1,3 +1,14 @@
+'''
+coding language:    Python 3.7.0
+
+written by:         Jonah Merrell
+date written:       November 14 2019
+written for:        Homework6 Task6
+course:             Math 4610
+
+purpose:            Implement a method that will test the jacobian iteration code I wrote earlier on various matrices.
+'''
+
 import random
 import sys, os
 import time
@@ -5,7 +16,7 @@ sys.path.append(os.path.abspath('../../mylibrary'))
 from _mymodules import gen_rand_matrix,gen_sym_matrix,gen_diagdom_matrix,gen_diagdom_sym_matrix ,matrix_mult, convert_vec_mat, matrix_solve_gauss_seidel
 
 def matrix_solve_gauss_seidel_test():
-    matrix1 = gen_rand_matrix(100,100)
+    matrix1 = gen_rand_matrix(100)
     matrix2 = gen_sym_matrix(100)
     matrix3 = gen_diagdom_matrix(100)
     matrix4 = gen_diagdom_sym_matrix(100)

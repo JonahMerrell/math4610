@@ -2,9 +2,9 @@
 coding language:    Python 3.7.0
 
 written by:         Jonah Merrell
-date written:       April 24 2019
-written for:        Homework6 Task7
-course:             Math 5610
+date written:       November 14 2019
+written for:        Homework6 Task6
+course:             Math 4610
 
 purpose:            This method will find the solution of a matrix using the gauss seidel iteration
 '''
@@ -37,8 +37,8 @@ def matrix_solve_gauss_seidel(matrix,vector_b,tol,max_iter,getIterCount=False):
         return xnew
 
 #The code below is used just for testing.
-matrix_example = [[5,1,2],[1,4,1],[2,2,5]]
-vector_example = [1,2,3]
-print(matrix_solve_gauss_seidel(matrix_example,vector_example,0.00001,40))
+#matrix_example = [[5,1,2],[1,4,1],[2,2,5]]
+#vector_example = [1,2,3]
+#print(matrix_solve_gauss_seidel(matrix_example,vector_example,0.00001,40))
 
 

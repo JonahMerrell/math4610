@@ -18,7 +18,7 @@ For this task, we were asked to write a code that implements a Cholesky factoriz
 
 - Code:
   - [matrix_cholesky_fac.py](Task1/matrix_cholesky_fac.py)
-  - [matrix_check_sym](Task1/matrix_check_sym.py)
+  - [matrix_check_sym.py](Task1/matrix_check_sym.py)
 - Software Manual entry:
   - [matrix_cholesky_fac](../software_manual/matrix_cholesky_fac.md)
 
@@ -65,6 +65,12 @@ For this task, we were asked to write a routine that will create a random diagon
 ### Task 7
 For this task, we were asked to use each of the matrix generation routines with our Jacobi iteration to test the code.
 
+|     Jacobian     |        Time       | # of iterations |    Result   |
+|   rand_matrix    |3.9712271690368652 |       1000      |    Error    |
+|    sym_matrix    |3.8992230892181396 |       1000      |    Error    |
+|  diagdom_matrix  |0.11000633239746094|        27       | vector of 1s|
+|diagdom_sym_matrix|0.11200642585754395|        27       | vector of 1s|
+
 - Code:
   - [matrix_solve_jacobian_test.py](Task7/matrix_solve_jacobian_test.py)
 
@@ -78,6 +84,15 @@ For this task, we were asked to implement the Gauss-Seidel method for solving li
 
 ### Task 9
 For this task, we were asked to run the Gauss-Seidel iteration on the same matrices as you created in Task 7. Compare the results of the Jacobi iteration runs to the Gauss-Seidel runs.
+
+|   Gauss Seidel   |        Time        | # of iterations | vector of 1s|
+|   rand_matrix    |0.0890049934387207  |       21        | vector of 1s|
+|    sym_matrix    |0.07700467109680176 |       19        | vector of 1s|
+|  diagdom_matrix  |0.0370020866394043  |       9         | vector of 1s|
+|diagdom_sym_matrix|0.034001827239990234|       9         | vector of 1s|
+
+By comparing the results of the Gauss-Seidel iteration with the Jacobian iteration, we can see that the Gauss Seidel converged to the desired accuracy much faster than the Jacobian iteration for every matrix we tested. Additionaly, we can see that the Guess-Seidel iteration converged with random matrices that the Jacobian iteration couldnt converge with.
+
 - Code:
   - [matrix_solve_gauss_seidel_test.py](Task9/matrix_solve_gauss_seidel_test.py)
 

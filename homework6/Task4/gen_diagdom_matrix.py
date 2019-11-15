@@ -2,9 +2,9 @@
 coding language:    Python 3.7.0
 
 written by:         Jonah Merrell
-date written:       February 6 2019
-written for:        Homework3 Task9
-course:             Math 5610
+date written:       November 14 2019
+written for:        Homework6 Task4
+course:             Math 4610
 
 purpose:            Implement a method that will generate a diagonally dominant matrix that has real values in all entries of the matrix.
 '''
@@ -22,8 +22,8 @@ def gen_diagdom_matrix(width=5):
     return A
 
 #The code below is used just for testing.
-#A_ = gen_diagdom_matrix()
-#for i in range(len(A_)):
-#    print(A_[i])
+A_ = gen_diagdom_matrix()
+for i in range(len(A_)):
+    print(A_[i])
 
 

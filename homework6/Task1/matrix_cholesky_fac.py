@@ -4,7 +4,7 @@ coding language:    Python 3.7.0
 written by:         Jonah Merrell
 date written:       November 14 2019
 written for:        Homework6 Task1
-course:             Math 5610
+course:             Math 4610
 
 purpose:            Implement a method that performs the Cholesky factorization method for square matrices
 '''
