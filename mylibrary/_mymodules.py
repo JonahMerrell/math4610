@@ -1,7 +1,8 @@
+from convert_vec_mat import convert_vec_mat
+from matrix_check_sym import matrix_check_sym
+
 from abs_error import abs_error
 from rel_error import rel_error
-
-
 
 from calculate_single_float_precision import calculate_single_float_precision
 from calculate_double_float_precision import calculate_double_float_precision
@@ -23,6 +24,7 @@ from vector_SAXPY import vector_SAXPY
 from vector_cross import vector_cross
 from vector_dot import vector_dot
 
+from matrix_mult import matrix_mult
 from matrix_vec_mult import matrix_vec_mult
 from matrix_solve_diagonal import matrix_solve_diagonal
 from matrix_solve_upper_tri import matrix_solve_upper_tri
@@ -33,9 +35,18 @@ from matrix_LU_factor import matrix_LU_factor
 from matrix_solve_LU import matrix_solve_LU
 from matrix_LU_factor_scaled_partial_pivoting import matrix_LU_factor_scaled_partial_pivoting
 from matrix_solve_LU_scaled_partial_pivoting import matrix_solve_LU_scaled_partial_pivoting
+from matrix_cholesky_fac import matrix_cholesky_fac
+from matrix_solve_jacobian import matrix_solve_jacobian
+from matrix_solve_gauss_seidel import matrix_solve_gauss_seidel
+
+from gen_rand_matrix import gen_rand_matrix
+from gen_diagdom_matrix import gen_diagdom_matrix
+from gen_sym_matrix import gen_sym_matrix
+from gen_diagdom_sym_matrix import gen_diagdom_sym_matrix
 
 
 
 from abs_error_1norm import abs_error_1norm
 from abs_error_2norm import abs_error_2norm
 from abs_error_infnorm import abs_error_infnorm
+

@@ -66,6 +66,8 @@ For this task, we were asked to add the routines created thus far to your shared
 
 The routines were added to my shared library.
 
+[Shared Library](https://github.com/JonahMerrell/math4610/tree/master/mylibrary)
+
 ### Task 7
 For this task, we were asked to develop code that will break an interval of a function into subintervals and apply the Bisection method to each subinterval.
 
