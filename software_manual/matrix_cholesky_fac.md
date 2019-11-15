@@ -1,6 +1,6 @@
 # Software Manual (matrix_cholesky_fac.py)
 
-## [Back](../softwaremanual)
+## [Back](softwaremanual.md)
 
 **Routine Name:**           matrix_cholesky_fac.py
 

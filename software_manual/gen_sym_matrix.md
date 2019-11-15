@@ -1,6 +1,6 @@
 # Software Manual (gen_sym_matrix.py)
 
-## [Back](../softwaremanual)
+## [Back](softwaremanual.md)
 
 **Routine Name:**           gen_sym_matrix.py
 

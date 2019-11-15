@@ -1,6 +1,6 @@
 # Software Manual (matrix_solve_gauss_seidel.py)
 
-## [Back](../softwaremanual)
+## [Back](softwaremanual.md)
 
 **Routine Name:**           matrix_solve_gauss_seidel.py
 

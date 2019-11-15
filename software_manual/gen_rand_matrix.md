@@ -1,6 +1,6 @@
 # Software Manual (gen_rand_matrix.py)
 
-## [Back](../softwaremanual)
+## [Back](softwaremanual.md)
 
 **Routine Name:**           gen_rand_matrix.py
 
