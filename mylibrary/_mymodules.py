@@ -1,5 +1,6 @@
 from convert_vec_mat import convert_vec_mat
 from matrix_check_sym import matrix_check_sym
+from matrix_transpose import matrix_transpose
 
 from abs_error import abs_error
 from rel_error import rel_error
@@ -38,6 +39,10 @@ from matrix_solve_LU_scaled_partial_pivoting import matrix_solve_LU_scaled_parti
 from matrix_cholesky_fac import matrix_cholesky_fac
 from matrix_solve_jacobian import matrix_solve_jacobian
 from matrix_solve_gauss_seidel import matrix_solve_gauss_seidel
+
+from matrix_solve_steepest_descent import matrix_solve_steepest_descent
+from matrix_solve_conjugate_gradient import matrix_solve_conjugate_gradient
+
 
 from gen_rand_matrix import gen_rand_matrix
 from gen_diagdom_matrix import gen_diagdom_matrix
