@@ -67,9 +67,9 @@ For this task, we were asked to compare our results in Task 4 to the use of Gaus
 
 The results from the test are shown below:
 
-Steepest Descent 100x100:   Absolute Error=4.3170405239986345e-15  Iteration Count=21 time=0.07500410079956055
-Conjugate Gradient 100x100: Absolute Error=1.0243070691865838e-12  Iteration Count=11 time=0.02300119400024414
-Guass Elimination 100x100:  Absolute Error=8.70587598461163e-15                       time=0.15800929069519043
+Steepest Descent 100x100:   Absolute Error=4.3170405239986345e-15  Iteration Count=21 time=0.07500410079956055<br>
+Conjugate Gradient 100x100: Absolute Error=1.0243070691865838e-12  Iteration Count=11 time=0.02300119400024414<br>
+Guass Elimination 100x100:  Absolute Error=8.70587598461163e-15                       time=0.15800929069519043<br>
 
 We can see that Guess elimination took 2-4 times longer to solve the system to the same accuracy as the Conjugate Gradiant and Steepest descent methods. 
 
@@ -81,9 +81,9 @@ For this task, we were asked to repeat the work in Task 5 but use Jacobi iterati
 
 The results from the test are shown below:
 
-Steepest Descent 100x100: Absolute Error=5.399155085589337e-15  Iteration Count=21 time=0.07000422477722168
-Conjugate Gradient 100x100: Absolute Error=1.093679044844119e-12  Iteration Count=11 time=0.021001100540161133
-Jacobian 100x100: Absolute Error=3.434090490215475e-14  Iteration Count=47 time=0.18301033973693848
+Steepest Descent 100x100: Absolute Error=5.399155085589337e-15  Iteration Count=21 time=0.07000422477722168<br>
+Conjugate Gradient 100x100: Absolute Error=1.093679044844119e-12  Iteration Count=11 time=0.021001100540161133<br>
+Jacobian 100x100: Absolute Error=3.434090490215475e-14  Iteration Count=47 time=0.18301033973693848<br>
 
 We can see that the jacobian iteration took 2-9 times longer to solve the system to the same accuracy as the Conjugate Gradiant and Steepest descent methods. 
 
@@ -95,9 +95,9 @@ For this task, we were asked to repeat Task 6 using Gauss-Seidel instead of Jaco
 
 The results from the test are shown below:
 
-Steepest Descent 100x100: Absolute Error=4.669540497562317e-15  Iteration Count=21 time=0.07500433921813965
-Conjugate Gradient 100x100: Absolute Error=1.0547209362808094e-12  Iteration Count=11 time=0.021001338958740234
-Gauss Seidel 100x100: Absolute Error=5.850611998216189e-14  Iteration Count=15 time=0.05600285530090332
+Steepest Descent 100x100: Absolute Error=4.669540497562317e-15  Iteration Count=21 time=0.07500433921813965<br>
+Conjugate Gradient 100x100: Absolute Error=1.0547209362808094e-12  Iteration Count=11 time=0.021001338958740234<br>
+Gauss Seidel 100x100: Absolute Error=5.850611998216189e-14  Iteration Count=15 time=0.05600285530090332<br>
 
 We can see that the Gauss-Seidel method took was able to solve the system at about the same speed as the Conjugate Gradiant and Steepest descent methods. In fact, tge Gauss-Siedel method performed faster than the Steepest Descent method, but the GConjugate Gradient method was the fastest of them all.
 
