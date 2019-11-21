@@ -2,9 +2,9 @@
 coding language:    Python 3.7.0
 
 written by:         Jonah Merrell
-date written:       April 24 2019
-written for:        Homework7 Task3
-course:             Math 5610
+date written:       November 21 2019
+written for:        Homework7 Task1
+course:             Math 4610
 
 purpose:            This method will solve the system of equations using the steepest descent method.
 '''

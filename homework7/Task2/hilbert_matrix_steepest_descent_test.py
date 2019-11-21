@@ -2,11 +2,11 @@
 coding language:    Python 3.7.0
 
 written by:         Jonah Merrell
-date written:       April 25 2019
-written for:        Homework7 Task4
-course:             Math 5610
+date written:       November 21 2019
+written for:        Homework7 Task2
+course:             Math 4610
 
-purpose:            This method tests the QR factorization method on various hilbert matrices.
+purpose:            This method tests the QR steepest_descent method on various hilbert matrices.
 '''
 
 import sys, os

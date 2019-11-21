@@ -3,10 +3,10 @@ coding language:    Python 3.7.0
 
 written by:         Jonah Merrell
 date written:       November 21 2019
-written for:        Homework7 Task4
+written for:        Homework7 Task7
 course:             Math 4610
 
-purpose:            This method compares the steepest descent method with teh conjugate gradient method.
+purpose:            This method compares the steepest descent method, conjugate gradient method, and gauss-seidel method.
 '''
 
 import sys, os

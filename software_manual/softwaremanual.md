@@ -44,6 +44,9 @@
 - [matrix_cholesky_fac](matrix_cholesky_fac)
 - [matrix_solve_jacobian](matrix_solve_jacobian)
 - [matrix_solve_gauss_seidel](matrix_solve_gauss_seidel)
+- [matrix_solve_steepest_descent](matrix_solve_steepest_descent)
+- [matrix_solve_conjugate_gradient](matrix_solve_conjugate_gradient)
+- [matrix_solve_tridiagonal](matrix_solve_tridiagonal)
 
 - [gen_rand_matrix](gen_rand_matrix)
 - [gen_diagdom_matrix](gen_diagdom_matrix)

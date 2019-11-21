@@ -2,17 +2,16 @@
 coding language:    Python 3.7.0
 
 written by:         Jonah Merrell
-date written:       April 26 2019
-written for:        Homework7 Task5
-course:             Math 5610
+date written:       November 21 2019
+written for:        Homework7 Task3
+course:             Math 4610
 
-purpose:            This method will find the solution of a matrix using QR factorization (modified gram schmidt) and back substitution
+purpose:            This method will find the solution of a matrix using the Conjugate Gradient method.
 '''
 
 import sys, os
 sys.path.append(os.path.abspath('../../mylibrary'))
 from _mymodules import vector_add, vector_scal_mult, matrix_mult, convert_vec_mat, vector_2norm, vector_dot
-
 
 def matrix_solve_conjugate_gradient(matrix,vector_b,tol,max_iter,getIterCount=False):
     error = tol * 10
