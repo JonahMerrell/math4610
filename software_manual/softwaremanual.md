@@ -48,6 +48,11 @@
 - [matrix_solve_conjugate_gradient](matrix_solve_conjugate_gradient)
 - [matrix_solve_tridiagonal](matrix_solve_tridiagonal)
 
+- [matrix_power_iteration](matrix_power_iteration)
+- [matrix_inverse_power_iteration](matrix_inverse_power_iteration)
+- [matrix_find_eigenvalues](matrix_find_eigenvalues)
+- [matrix_condition_number](matrix_condition_number)
+
 - [gen_rand_matrix](gen_rand_matrix)
 - [gen_diagdom_matrix](gen_diagdom_matrix)
 - [gen_sym_matrix](gen_sym_matrix)
