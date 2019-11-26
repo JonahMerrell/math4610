@@ -29,6 +29,6 @@ def matrix_solve_tridiagonal(matrix,vector):
 
 
 #The code below is used just for testing.
-matrix = [[0,8,10],[5,2,5],[4,2,2],[3,6,0]]
-vector = [12,25,38,27]
-print(matrix_solve_tridiagonal(matrix,vector))
+#matrix = [[0,8,10],[5,2,5],[4,2,2],[3,6,0]]
+#vector = [12,25,38,27]
+#print(matrix_solve_tridiagonal(matrix,vector))

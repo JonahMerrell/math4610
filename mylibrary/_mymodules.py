@@ -1,6 +1,8 @@
 from convert_vec_mat import convert_vec_mat
 from matrix_check_sym import matrix_check_sym
 from matrix_transpose import matrix_transpose
+from matrix_scal_mult import matrix_scal_mult
+from matrix_add import matrix_add
 
 from abs_error import abs_error
 from rel_error import rel_error
@@ -49,9 +51,13 @@ from gen_diagdom_matrix import gen_diagdom_matrix
 from gen_sym_matrix import gen_sym_matrix
 from gen_diagdom_sym_matrix import gen_diagdom_sym_matrix
 
-
-
 from abs_error_1norm import abs_error_1norm
 from abs_error_2norm import abs_error_2norm
 from abs_error_infnorm import abs_error_infnorm
+
+from matrix_power_iteration import matrix_power_iteration
+from matrix_inverse_power_iteration import matrix_inverse_power_iteration
+from matrix_find_eigenvalues import matrix_find_eigenvalues
+from matrix_condition_number import matrix_condition_number
+
 
