@@ -50,7 +50,9 @@ For this task, we were asked to implement the power method with shifting to try 
 
 - Code:
   - [matrix_find_eigenvalues.py](Task5/matrix_find_eigenvalues.py)
-
+- Software Manual entry:
+  - [matrix_find_eigenvalues](../software_manual/matrix_find_eigenvalues.md)
+  
 ### Task 6
 For this task, we were asked to try out your shifted power method on the Hilbert matrix of order n = 10.
 
