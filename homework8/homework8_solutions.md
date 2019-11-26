@@ -80,6 +80,7 @@ The estimated condition number for the 10x10 hilbert matrix was computer to be 1
   
 ### Task 9
 For this task, we were asked to combine the tridiagonal matrix multiplication routine to compute the 2-condition number of a tridiagonal matrix.
+
 Not complete
 
 ### Task 10
