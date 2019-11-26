@@ -27,6 +27,8 @@ For this task, we were asked to try out our power method on the Hilbert matrix o
 - Code:
   - [hilbert_matrix_power_iteration_test.py](Task2/hilbert_matrix_power_iteration_test.py)
 
+After testing the power method on the 10x10 hilber matrix, the largest eigenvalue for 10x10 was found to be: 1.7519196702597382
+  
 ### Task 3
 For this task, we were asked to implement the inverse power method for finding the smallest eigenvalue of a square matrix.
 
@@ -41,6 +43,8 @@ For this task, we were asked to try out our inverse power method on the Hilbert 
 - Code:
   - [hilbert_matrix_inverse_power_iteration_test.py](Task4/hilbert_matrix_inverse_power_iteration_test.py)
 
+After testing the inverse power method on the 10x10 hilber matrix, the smallest eigenvalue for 10x10 was found to be: 1.0932741624186234e-13
+
 ### Task 5
 For this task, we were asked to implement the power method with shifting to try to estimate eigenvalues of a matrix.
 
@@ -52,7 +56,9 @@ For this task, we were asked to try out your shifted power method on the Hilbert
 
 - Code:
   - [hilbert_matrix_find_eigenvalues_test.py](Task6/hilbert_matrix_find_eigenvalues_test.py)
-
+After testing the shifted power method on the 10x10 hilber matrix, 8 of the 10 eigenvalues were found. They eigenvalues found were:<br>
+[1.0932741624186234e-13, 1.7519196702649693, 0.34292954848351387, 0.03574181627165062, 0.0025308907686925376, 0.00012874961431114508, 0.34217589549639754, 1.7084449918328068]
+  
 ### Task 7
 For this task, we were asked to write a routine that will compute an estimate of the 2-condition number using the power method and inverse power method.
 
@@ -67,6 +73,8 @@ For this task, we were asked to Try out the condition number code on the Hilber 
 - Code:
   - [hilbert_matrix_condition_number_test.py](Task8/hilbert_matrix_condition_number_test.py)
 
+The estimated condition number for the 10x10 hilbert matrix was computer to be 16024522763706.78.
+  
 ### Task 9
 For this task, we were asked to combine the tridiagonal matrix multiplication routine to compute the 2-condition number of a tridiagonal matrix.
 Not complete

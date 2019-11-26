@@ -16,7 +16,7 @@ from _mymodules import matrix_inverse_power_iteration, matrix_power_iteration
 
 def matrix_find_eigenvalues(matrix):
     eigenvalues = []
-    eigenvalues.append(matrix_inverse_power_iteration(matrix,0.56,0.00000000000001,20000))
+    eigenvalues.append(matrix_inverse_power_iteration(matrix,0.0,0.00000000000001,20000))
     eigenvalues.append(matrix_power_iteration(matrix,0.0000000001,20000))
     find_middle_eigenvalue(matrix,eigenvalues,eigenvalues[0],eigenvalues[1])
     return eigenvalues
@@ -32,7 +32,7 @@ def find_middle_eigenvalue(matrix,eigenvalues,min_value,max_value):
 
 
 #The code below is used just for testing.
-#matrix_example = [[5, 1, 2], [1, 4, 1], [2, 1, 5]]
-#print(matrix_find_eigenvalues(matrix_example))
+matrix_example = [[5, 1, 2], [1, 4, 1], [2, 1, 5]]
+print(matrix_find_eigenvalues(matrix_example))
 
 
